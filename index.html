@@ -4,19 +4,131 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Welcome to JSON mate</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to JSON mate</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+    <!-- <script type="text/javascript" src="persons.json"></script> -->
+    <script type="text/javascript" async defer>
+
+        console.log("Namaste")
+        console.log("Hola")
+        console.log("Ciao")
+        console.log("Hello")
+
+        let persons =
+            [
+                {
+                    "name": "Rohin Sharma",
+                    "favouriteNumber": 69,
+                    "isProgrammer": true,
+                    "isTester": false,
+                    "isIllustrator": false,
+                    "hobbies": [
+                        "chess",
+                        "bowling",
+                        "movie buff",
+                        "reader"
+                    ],
+                    "friends": [
+                        {
+                            "name": "Ankit Sahu",
+                            "isProgrammer": true
+                        },
+                        {
+                            "name": "T. R. Pachamuthoo",
+                            "isProgrammer": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Divya Mishra",
+                    "favouriteNumber": 21,
+                    "isProgrammer": true,
+                    "isTester": true,
+                    "isIllustrator": false,
+                    "hobbies": [
+                        "badminton",
+                        "bowling",
+                        "travelling",
+                        "reader",
+                        "memes"
+                    ],
+                    "friends": [
+                        {
+                            "name": "Shalvi Pandey",
+                            "isProgrammer": null
+                        },
+                        {
+                            "name": "Kartikey Gupta",
+                            "isProgrammer": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Sarang Kejriwal",
+                    "favouriteNumber": 69,
+                    "isProgrammer": true,
+                    "isTester": false,
+                    "isIllustrator": false,
+                    "hobbies": [
+                        "bakchodi",
+                        "bowling",
+                        "movies",
+                        "memes",
+                        "F1 Racing"
+                    ],
+                    "friends": [
+                        {
+                            "name": "Ankit Sahu",
+                            "isProgrammer": true
+                        },
+                        {
+                            "name": "Abhishek Baba",
+                            "isProgrammer": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Vaishnavi Sahu",
+                    "favouriteNumber": 22,
+                    "isProgrammer": false,
+                    "isTester": false,
+                    "isIllustrator": true,
+                    "hobbies": [
+                        "badminton",
+                        "drawing",
+                        "travelling",
+                        "reader",
+                        "K Pop Music",
+                        "Korean TV Shows"
+                    ],
+                    "friends": [
+                        {
+                            "name": "Suyasha Singh",
+                            "isProgrammer": null
+                        },
+                        {
+                            "name": "Aditi Tiwari",
+                            "isProgrammer": false
+                        }
+                    ]
+                }
+
+            ]
+
+            console.log(persons)
+    </script>
+</body>
+
 </html>
